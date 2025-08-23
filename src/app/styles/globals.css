@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root { 
+  color-scheme: light; 
+  font-feature-settings: 'liga' 1, 'kern' 1;
+}
+
+html, body { 
+  height: 100%;
+  font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body { 
+  @apply bg-gray-50 text-gray-900; 
+}
+
+/* SF Pro TH with heavier weights for Apple-style */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; /* SF Pro Display Bold - เหมือนเว็บ Apple ไทย */
+  letter-spacing: -0.022em;
+  line-height: 1.1; /* ทำให้หนาแน่นเหมือนรูป */
+}
+
+p, span, div {
+  font-weight: 500; /* SF Pro TH Medium - หนักกว่าปกติ */
+  letter-spacing: -0.005em;
+  line-height: 1.5;
+}
+
+button, a {
+  font-weight: 600; /* SF Pro TH Semibold */
+  letter-spacing: -0.01em;
+}
+
+/* Enhanced animations */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out forwards;
+}
+
+.animation-delay-200 { animation-delay: 200ms; }
+.animation-delay-400 { animation-delay: 400ms; }
+.animation-delay-600 { animation-delay: 600ms; }
+.animation-delay-800 { animation-delay: 800ms; }
+.animation-delay-1000 { animation-delay: 1000ms; }
+
+/* Apple-style smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Apple-style text rendering for SF Pro TH */
+* {
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures;
+}
+
+/* SF Pro TH specific optimizations */
+.sf-pro-th {
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+  -webkit-font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+}
