@@ -1,4 +1,11 @@
 {
+<<<<<<< HEAD
   "/page": "app/page.js",
   "/smart-depart/page": "app/smart-depart/page.js"
+=======
+  "/_not-found/page": "app/_not-found/page.js",
+  "/smart-depart/page": "app/smart-depart/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js"
+>>>>>>> 7b36df15e64e85142f1ec8988d919e4626d9c34a
 }

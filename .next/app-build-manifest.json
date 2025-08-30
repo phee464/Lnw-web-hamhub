@@ -11,7 +11,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
+<<<<<<< HEAD
     "/smart-depart/page": [
+=======
+    "/register/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/register/page.js"
+    ],
+    "/_not-found/page": [
+>>>>>>> 7b36df15e64e85142f1ec8988d919e4626d9c34a
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/smart-depart/page.js"
