@@ -19,6 +19,9 @@ export default function Navbar() {
         <Link href="/" className="font-semibold mr-auto">
           RS-SHOP
         </Link>
+        <Link href="/smart-depart">
+          <Button>Smart Depart</Button>
+        </Link>
         <Link href="/login">
           <Button>Login</Button>
         </Link>

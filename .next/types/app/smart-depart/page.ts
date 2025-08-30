@@ -1,4 +1,4 @@
-// File: C:\Users\Spoxer718\Desktop\Project\HamsterHubNextjs\next-hams\src\app\smart-depart\page.jsx
+// File: C:\VS CODE\Nutor2\Lnw-web-hamhub\src\app\smart-depart\page.jsx
 import * as entry from '../../../../src/app/smart-depart/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
